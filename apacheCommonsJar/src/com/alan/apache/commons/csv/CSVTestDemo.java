@@ -14,21 +14,21 @@ import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.csv.CSVRecord;
 /**
  * 
- * <p>csvĞ´Èë¡¢¶ÁÈ¡</p>
- * @author alanzhang211 2014-12-27 ÏÂÎç03:10:00
+ * <p>csvå†™å…¥ã€è¯»å–</p>
+ * @author alanzhang211 2014-12-27 ä¸‹åˆ03:10:00
  * @blog http://www.alanzhang211.com
  * @GitHub https://github.com/alanzhang211
  * @version V1.0   
- * @modificationHistory=========================Âß¼­»ò¹¦ÄÜĞÔÖØ´ó±ä¸ü¼ÇÂ¼
- * @modify by user: {ĞŞ¸ÄÈË} 2014-12-27
- * @modify by reason:{·½·¨Ãû}:{Ô­Òò}
+ * @modificationHistory=========================é€»è¾‘æˆ–åŠŸèƒ½æ€§é‡å¤§å˜æ›´è®°å½•
+ * @modify by user: {ä¿®æ”¹äºº} 2014-12-27
+ * @modify by reason:{æ–¹æ³•å}:{åŸå› }
  */
 public class CSVTestDemo {
 	
 	private final static String BASEPATH_STRING = System.getProperty("user.dir");
 	/**
-	 * Ğ´ÈëCSVÎÄ¼ş
-	 * @author alanzhang211 2014-12-27 ÏÂÎç03:19:38
+	 * å†™å…¥CSVæ–‡ä»¶
+	 * @author alanzhang211 2014-12-27 ä¸‹åˆ03:19:38
 	 * @throws Exception 
 	 */
 	public void writeCSV() {
@@ -46,15 +46,15 @@ public class CSVTestDemo {
 	    
     }
 	/**
-	 * ¶ÁÈ¡CSVÎÄ¼şÄÚÈİ
-	 * @author alanzhang211 2014-12-27 ÏÂÎç07:16:21
+	 * è¯»å–CSVæ–‡ä»¶å†…å®¹
+	 * @author alanzhang211 2014-12-27 ä¸‹åˆ07:16:21
 	 * @throws Exception
 	 */
 	public void readCSV(){
 		Reader in = null;
 		try {
 	        in = new FileReader(BASEPATH_STRING+"/WebRoot/docs/csv/test.csv");
-	        //²»Ö¸¶¨ÎÄ¼şÁĞÃû£¬Ä¬ÈÏµÚÒ»ĞĞÎªÁĞÃû
+	        //ä¸æŒ‡å®šæ–‡ä»¶åˆ—åï¼Œé»˜è®¤ç¬¬ä¸€è¡Œä¸ºåˆ—å
 	        CSVParser parser = CSVFormat.EXCEL.withHeader().parse(in); 
 	        //CSVParser parser = CSVFormat.EXCEL.withHeader("LastName","FirstName").parse(in);
 	        String firstName = null;

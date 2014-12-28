@@ -2,17 +2,17 @@ package com.alan.apache.commons.csv;
 import org.junit.Before;
 import org.junit.Test;
 /**
- * <p>junit²âÊÔ´úÂë</p>
- * @author alanzhang211 2014-12-27 ÏÂÎç04:08:29
+ * <p>junitæµ‹è¯•ä»£ç </p>
+ * @author alanzhang211 2014-12-27 ä¸‹åˆ04:08:29
  * @blog http://www.alanzhang211.com
  * @GitHub https://github.com/alanzhang211
  * @version V1.0   
- * @modificationHistory=========================Âß¼­»ò¹¦ÄÜĞÔÖØ´ó±ä¸ü¼ÇÂ¼
- * @modify by user: {ĞŞ¸ÄÈË} 2014-12-27
- * @modify by reason:{·½·¨Ãû}:{Ô­Òò}
+ * @modificationHistory=========================é€»è¾‘æˆ–åŠŸèƒ½æ€§é‡å¤§å˜æ›´è®°å½•
+ * @modify by user: {ä¿®æ”¹äºº} 2014-12-27
+ * @modify by reason:{æ–¹æ³•å}:{åŸå› }
  */
 public class CSVTestDemoTest {
-	/**CSVÊµÀı*/
+	/**CSVå®ä¾‹*/
 	private CSVTestDemo csvTestDemo;
 	@Before
 	public void setUp(){
