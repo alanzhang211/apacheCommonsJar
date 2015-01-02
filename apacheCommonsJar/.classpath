@@ -8,6 +8,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-csv-1.1.jar" sourcepath="WebRoot/WEB-INF/jarSrc/commons-csv-1.1-src.zip"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-dbutils-1.6.jar" sourcepath="WebRoot/WEB-INF/jarSrc/commons-dbutils-1.6-src.zip"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar" sourcepath="F:/repository/Git/ApacheCommonsJar/apacheCommonsJar/WebRoot/WEB-INF/jarSrc/commons-beanutils-1.9.2-src.zip"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.2.jar" sourcepath="F:/repository/Git/ApacheCommonsJar/apacheCommonsJar/WebRoot/WEB-INF/jarSrc/commons-logging-1.2-src.zip"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
